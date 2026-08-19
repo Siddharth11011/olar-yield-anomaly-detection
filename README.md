@@ -12,10 +12,10 @@ Solar power plants suffer from hidden revenue leakage due to thermal derating an
 *   **Fault Detection:** Scikit-Learn `IsolationForest`.
 
 ## Key Results
-1.  **Thermal Lag Optimization:** Built a model that mathematically accounts for panel heat retention. The XGBoost pipeline outperformed standard Linear Regression, dropping the Root Mean Square Error (RMSE) by over 94 points.
-2.  **Automated Fault Isolation:** Processed 33,266 active daylight sensor readings and isolated exactly 333 instances of silent hardware failure, where DC-to-AC conversion efficiency dropped to zero strictly between 40°C and 60°C. 
+1.  **Thermal Lag Optimization:** Built a model that mathematically accounts for panel heat retention. The XGBoost pipeline outperformed standard Linear Regression, dropping the Root Mean Square Error (RMSE) by over 351.75 points.
+2.  **Automated Fault Isolation:** Processed 33,266 active daylight sensor readings and isolated exactly 649 instances of silent hardware failure, where DC-to-AC conversion efficiency dropped to zero strictly between 40°C and 60°C. 
 
 ## Visual Proof
 The left chart proves the forecasting accuracy of the XGBoost model. The right chart highlights the exact moments of thermal overload, identifying the 333 localized hardware faults that trigger immediate maintenance alerts.
 
-<img width="1653" height="611" alt="Image" src="https://github.com/user-attachments/assets/37558404-fbf1-4b07-a547-8138c000808b" />
+<img width="1716" height="614" alt="Image" src="https://github.com/user-attachments/assets/bc9ac1aa-45fe-4238-9b4c-bc554ccca163" />
